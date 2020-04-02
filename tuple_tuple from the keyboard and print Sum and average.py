@@ -1,6 +1,6 @@
 # Write a program to take the tuple from the keyboard and print sum and average'
 
-numbers = input("Please type numbers like 1,2 : " )
+numbers = input("Type Numbers like 1,2 : " )
 numbers = tuple(map(int,numbers.split(',')))
 total = 0
 
