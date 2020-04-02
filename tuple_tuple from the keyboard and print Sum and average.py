@@ -4,7 +4,6 @@ numbers = input("Type Numbers like 1,2 : " )
 numbers = tuple(map(int,numbers.split(',')))
 total = 0
 
-print(numbers)
 
 for value in numbers:
     total = total + value
