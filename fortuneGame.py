@@ -14,7 +14,7 @@ for x in range(1,turn+1):
         print("Your guess is greater than the actual number.")
         print(f"Remaining {turn - x} out of 5 \n")
     else:
-        print("You Won!!! \nTotal tries " + w.toString)
+        print(f"You Won!!! \nTotal tries {x}")
         gameStatus = True
         break
 

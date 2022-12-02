@@ -14,6 +14,6 @@ for x in w:
 print(w)
 
 for y,z in letters.items():
-    print(y,'=',z)
+    print(f"{y}:{z}")
 
 
