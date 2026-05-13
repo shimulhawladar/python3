@@ -105,16 +105,16 @@ def get_user_bet() -> int:
     Get validated user bet input.
 
     Returns:
-        User selected number between 0 and 9
+        User selected number between 1 and 9
     """
     while True:
         try:
-            user_input = int(input("Place your bet (0-9): "))
+            user_input = int(input("Place your bet (1-9): "))
 
-            if 0 <= user_input <= 9:
+            if 1 <= user_input <= 9:
                 return user_input
 
-            print("Please enter a number between 0 and 9.")
+            print("Please enter a number between 1 and 9.")
 
         except ValueError:
             print("Invalid input. Please enter a valid number.")
