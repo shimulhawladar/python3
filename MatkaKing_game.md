@@ -140,11 +140,6 @@ If you would like to improve the project:
 
 ---
 
-# 📜 License
-
-This project is licensed under the MIT License.
-
----
 
 # 👨‍💻 Author
 
